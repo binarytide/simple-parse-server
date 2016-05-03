@@ -1,0 +1,18 @@
+{
+  "name": "parse-server",
+  "version": "1",
+  "description": "An example Parse API server using the parse-server module",
+  "main": "index.js",
+  "dependencies": {
+    "express": "*",
+    "kerberos": "*",
+    "parse": "*",
+    "parse-server": "*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
