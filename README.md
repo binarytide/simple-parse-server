@@ -1,5 +1,7 @@
 # simple-parse-server
 
-`npm install`
+`yarn`
 
-fill out and use parse-supervisor.conf
+copy and fill out env.js
+
+`npm run serve`

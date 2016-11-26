@@ -1,18 +1,21 @@
 {
-  "name": "parse-server",
-  "version": "1",
-  "description": "An example Parse API server using the parse-server module",
+  "name": "simple-parse-server",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "express": "*",
-    "kerberos": "*",
-    "parse": "*",
-    "parse-server": "*"
+  "engines": {
+    "node": ">=4.5"
   },
   "scripts": {
-    "start": "node index.js"
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": ">=4.3"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fs": "^0.0.1-security",
+    "parse-dashboard": "^1.0.19",
+    "parse-server": "^2.2.25-beta.1"
   }
 }
